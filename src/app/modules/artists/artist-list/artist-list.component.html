@@ -1,0 +1,17 @@
+<div class="space-y-6">
+  <h1 class="text-3xl font-bold">Browse Artists</h1>
+  <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+    <a *ngFor="let artist of artists" [routerLink]="['/artists', artist.id]"
+       class="glass-dark rounded-2xl p-4 text-center hover:bg-white/5 transition-colors group cursor-pointer">
+      <div class="w-24 h-24 mx-auto rounded-full overflow-hidden mb-3">
+        <img [src]="artist.imageUrl" [alt]="artist.name" class="w-full h-full object-cover group-hover:scale-110 transition-transform" />
+      </div>
+      <p class="font-semibold text-sm truncate">{{ artist.name }}</p>
+      <p class="text-xs text-white/50 mt-1">Artist</p>
+    </a>
+  </div>
+  <div *ngIf="artists.length === 0" class="text-center py-16 text-white/40">
+    <mat-icon class="text-6xl mb-4">people</mat-icon>
+    <p class="text-lg">No artists found</p>
+  </div>
+</div>

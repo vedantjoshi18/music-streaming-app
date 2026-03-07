@@ -1,0 +1,126 @@
+<div class="space-y-10">
+  <!-- Search & Genre Chips -->
+  <div class="space-y-5">
+    <div class="relative max-w-lg">
+      <mat-icon class="absolute left-4 top-1/2 -translate-y-1/2 text-white/30 icon-md">search</mat-icon>
+      <input type="text" [(ngModel)]="searchQuery" placeholder="What do you want to listen to?"
+             class="w-full pl-12 pr-5 py-3.5 rounded-full glass-dark text-white text-sm placeholder-white/30 border border-white/[0.06] outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary/30 transition-all" />
+    </div>
+    <div class="flex flex-wrap gap-2">
+      <button *ngFor="let genre of genres"
+              (click)="selectGenre(genre)"
+              [class]="selectedGenre === genre
+                ? 'px-4 py-1.5 rounded-full text-xs font-semibold bg-primary text-black shadow-lg shadow-primary/25 transition-all scale-105'
+                : 'px-4 py-1.5 rounded-full text-xs font-semibold glass-dark text-white/60 hover:text-white hover:bg-white/[0.06] border border-white/[0.06] transition-all'">
+        {{ genre }}
+      </button>
+    </div>
+  </div>
+
+  <!-- Featured Hero -->
+  <section *ngIf="!searchQuery && !selectedGenre && featuredSongs.length">
+    <h2 class="text-2xl font-bold mb-5 tracking-tight">Featured</h2>
+    <div class="grid grid-cols-2 md:grid-cols-5 gap-5">
+      <div *ngFor="let song of featuredSongs" (click)="playAndQueue(song)"
+           appAlbumAnimate
+           class="cursor-pointer rounded-2xl overflow-hidden group relative bg-white/[0.03] border border-white/[0.06] hover:border-white/[0.12] transition-all">
+        <div class="aspect-square relative overflow-hidden">
+          <img [src]="song.coverUrl" [alt]="song.title" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+          <div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="w-12 h-12 rounded-full bg-primary flex items-center justify-center shadow-xl shadow-primary/30 scale-0 group-hover:scale-100 transition-transform duration-300">
+              <mat-icon class="text-black icon-lg">play_arrow</mat-icon>
+            </div>
+          </div>
+          <div class="absolute bottom-0 left-0 right-0 p-3.5">
+            <p class="text-sm font-bold truncate drop-shadow-lg">{{ song.title }}</p>
+            <p class="text-[11px] text-white/60 font-medium">{{ song.genre }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trending -->
+  <section *ngIf="!searchQuery && !selectedGenre && trendingSongs.length">
+    <h2 class="text-2xl font-bold mb-5 tracking-tight">Trending</h2>
+    <div class="flex gap-4 overflow-x-auto hide-scrollbar pb-2">
+      <div *ngFor="let song of trendingSongs" (click)="playAndQueue(song)"
+           appAlbumAnimate
+           class="flex-shrink-0 w-44 cursor-pointer rounded-2xl overflow-hidden group bg-white/[0.03] border border-white/[0.06] hover:border-white/[0.12] transition-all">
+        <div class="aspect-square relative overflow-hidden">
+          <img [src]="song.coverUrl" [alt]="song.title" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+          <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+          <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div class="w-10 h-10 rounded-full bg-primary flex items-center justify-center shadow-xl shadow-primary/30 scale-0 group-hover:scale-100 transition-transform duration-300">
+              <mat-icon class="text-black icon-md">play_arrow</mat-icon>
+            </div>
+          </div>
+        </div>
+        <div class="p-3">
+          <p class="text-xs font-bold truncate">{{ song.title }}</p>
+          <p class="text-[10px] text-white/40 font-medium mt-0.5">{{ song.genre }}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- All Songs / Filtered -->
+  <section>
+    <h2 class="text-2xl font-bold mb-5 tracking-tight">
+      {{ selectedGenre ? selectedGenre : (searchQuery ? 'Search Results' : 'All Songs') }}
+    </h2>
+    <div class="glass-dark rounded-2xl border border-white/[0.06] overflow-hidden divide-y divide-white/[0.04]" [@staggerList]="filteredSongs.length">
+      <div *ngFor="let song of filteredSongs; let i = index"
+           [appHighlightPlaying]="isPlaying(song)"
+           class="flex items-center gap-4 px-4 py-3 hover:bg-white/[0.04] transition-colors group cursor-pointer"
+           (click)="playAndQueue(song)">
+        <!-- Index -->
+        <span class="w-7 text-center text-xs text-white/30 font-medium group-hover:hidden tabular-nums">{{ i + 1 }}</span>
+        <mat-icon class="w-7 text-center text-primary hidden group-hover:block icon-sm">play_arrow</mat-icon>
+        <!-- Cover -->
+        <img [src]="song.coverUrl" [alt]="song.title" class="w-11 h-11 rounded-lg object-cover shadow-md" />
+        <!-- Info -->
+        <div class="flex-1 min-w-0">
+          <p class="text-sm font-semibold truncate" [class.text-primary]="isPlaying(song)">{{ song.title }}</p>
+          <p class="text-[11px] text-white/40 font-medium">{{ song.genre }}</p>
+        </div>
+        <!-- Duration -->
+        <span class="text-[11px] text-white/30 font-medium tabular-nums">{{ formatTime(song.duration) }}</span>
+        <!-- Favorite -->
+        <button mat-icon-button (click)="toggleFavorite(song); $event.stopPropagation()" class="opacity-0 group-hover:opacity-100 transition-opacity">
+          <mat-icon class="icon-sm" [class.text-red-500]="isFavorite(song)">{{ isFavorite(song) ? 'favorite' : 'favorite_border' }}</mat-icon>
+        </button>
+        <!-- Context Menu -->
+        <button mat-icon-button [matMenuTriggerFor]="songMenu" (click)="$event.stopPropagation()" class="opacity-0 group-hover:opacity-100 transition-opacity">
+          <mat-icon class="icon-sm">more_horiz</mat-icon>
+        </button>
+        <mat-menu #songMenu="matMenu">
+          <button mat-menu-item (click)="addToQueue(song)">
+            <mat-icon class="icon-sm">queue_music</mat-icon> Add to Queue
+          </button>
+          <button mat-menu-item (click)="toggleFavorite(song)">
+            <mat-icon class="icon-sm">{{ isFavorite(song) ? 'heart_broken' : 'favorite' }}</mat-icon>
+            {{ isFavorite(song) ? 'Remove from Liked' : 'Add to Liked' }}
+          </button>
+          <button mat-menu-item [matMenuTriggerFor]="playlistMenu">
+            <mat-icon class="icon-sm">playlist_add</mat-icon> Add to Playlist
+          </button>
+          <mat-menu #playlistMenu="matMenu">
+            <button mat-menu-item *ngFor="let pl of playlists" (click)="addToPlaylist(song, pl)">
+              {{ pl.name }}
+            </button>
+            <button mat-menu-item *ngIf="playlists.length === 0" disabled>
+              No playlists yet
+            </button>
+          </mat-menu>
+        </mat-menu>
+      </div>
+    </div>
+    <div *ngIf="filteredSongs.length === 0" class="text-center py-20 text-white/30">
+      <mat-icon class="icon-2xl mb-4">search_off</mat-icon>
+      <p class="text-lg font-semibold">No songs found</p>
+      <p class="text-sm text-white/20 mt-1">Try a different search or genre</p>
+    </div>
+  </section>
+</div>

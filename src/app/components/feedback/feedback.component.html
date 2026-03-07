@@ -1,0 +1,34 @@
+<div class="max-w-2xl mx-auto" @fadeIn>
+  <div class="glass-dark rounded-3xl p-10 space-y-6">
+    <div class="text-center">
+      <mat-icon class="text-5xl text-primary mb-2">chat_bubble_outline</mat-icon>
+      <h1 class="text-2xl font-bold">Send Feedback</h1>
+      <p class="text-sm text-white/50 mt-1">We'd love to hear from you</p>
+    </div>
+
+    <div class="space-y-4">
+      <input type="text" [(ngModel)]="name" placeholder="Your name"
+             class="w-full px-5 py-3 rounded-xl bg-white/5 text-white placeholder-white/40 border border-white/10 outline-none focus:ring-1 focus:ring-primary/50" />
+      <input type="email" [(ngModel)]="email" placeholder="Email (optional)"
+             class="w-full px-5 py-3 rounded-xl bg-white/5 text-white placeholder-white/40 border border-white/10 outline-none focus:ring-1 focus:ring-primary/50" />
+      <textarea [(ngModel)]="message" placeholder="Your feedback…" rows="5"
+                class="w-full px-5 py-3 rounded-xl bg-white/5 text-white placeholder-white/40 border border-white/10 outline-none focus:ring-1 focus:ring-primary/50 resize-none"></textarea>
+
+      <!-- Rating -->
+      <div class="flex items-center gap-3">
+        <span class="text-sm text-white/50">Rating:</span>
+        <div class="flex gap-1">
+          <button *ngFor="let star of [1,2,3,4,5]" (click)="rating = star" class="text-2xl transition-colors"
+                  [class]="star <= rating ? 'text-primary' : 'text-white/20'">
+            ★
+          </button>
+        </div>
+      </div>
+
+      <button (click)="submit()"
+              class="w-full py-3 rounded-xl bg-primary text-black font-semibold hover:bg-yellow-400 transition-colors">
+        Submit Feedback
+      </button>
+    </div>
+  </div>
+</div>

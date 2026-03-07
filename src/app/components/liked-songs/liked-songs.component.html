@@ -1,0 +1,38 @@
+<div class="max-w-4xl mx-auto space-y-6" @fadeIn>
+  <!-- Header -->
+  <div class="flex items-center justify-between">
+    <div>
+      <h1 class="text-3xl font-bold tracking-tight">Liked Songs</h1>
+      <p class="text-sm text-white/40 mt-1 font-medium">{{ likedSongs.length }} songs</p>
+    </div>
+    <button *ngIf="likedSongs.length > 0" (click)="playAll()"
+            class="px-6 py-2.5 rounded-full bg-primary text-black font-bold text-sm hover:bg-yellow-400 transition-all hover:shadow-lg hover:shadow-primary/25 flex items-center gap-2">
+      <mat-icon class="icon-sm">play_arrow</mat-icon> Play All
+    </button>
+  </div>
+
+  <!-- Songs List -->
+  <div *ngIf="likedSongs.length > 0" class="glass-dark rounded-2xl border border-white/[0.06] overflow-hidden divide-y divide-white/[0.04]">
+    <div *ngFor="let song of likedSongs; let i = index"
+         class="flex items-center gap-4 px-4 py-3 hover:bg-white/[0.04] transition-colors group cursor-pointer"
+         (click)="playSong(song)">
+      <span class="w-7 text-center text-xs text-white/30 font-medium tabular-nums">{{ i + 1 }}</span>
+      <img [src]="song.coverUrl" [alt]="song.title" class="w-11 h-11 rounded-lg object-cover shadow-md" />
+      <div class="flex-1 min-w-0">
+        <p class="text-sm font-semibold truncate">{{ song.title }}</p>
+        <p class="text-[11px] text-white/40 font-medium">{{ song.genre }}</p>
+      </div>
+      <span class="text-[11px] text-white/30 font-medium tabular-nums">{{ formatTime(song.duration) }}</span>
+      <button mat-icon-button (click)="removeFavorite(song); $event.stopPropagation()" class="text-red-400 opacity-0 group-hover:opacity-100 transition-opacity">
+        <mat-icon class="icon-sm">heart_broken</mat-icon>
+      </button>
+    </div>
+  </div>
+
+  <!-- Empty State -->
+  <div *ngIf="likedSongs.length === 0" class="text-center py-24 text-white/30">
+    <mat-icon class="icon-2xl mb-4">favorite_border</mat-icon>
+    <p class="text-xl font-semibold">No liked songs yet</p>
+    <p class="text-sm mt-2">Tap the heart icon on any song to add it here</p>
+  </div>
+</div>

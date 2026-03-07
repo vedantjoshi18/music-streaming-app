@@ -1,0 +1,104 @@
+<nav class="glass-dark rounded-full px-5 py-2.5 flex items-center gap-1 shadow-2xl shadow-black/40 border border-white/[0.06] transition-all duration-300"
+     [class.nav-hidden]="!navVisible">
+  <!-- Logo -->
+  <a routerLink="/songs" class="flex items-center gap-2 px-3 mr-2">
+    <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-yellow-500 flex items-center justify-center">
+      <mat-icon class="text-black icon-sm">music_note</mat-icon>
+    </div>
+    <span class="text-lg font-extrabold bg-gradient-to-r from-primary via-yellow-300 to-primary bg-clip-text text-transparent tracking-tight">
+      Musico
+    </span>
+  </a>
+
+  <!-- Divider -->
+  <div class="w-px h-6 bg-white/10 mx-1"></div>
+
+  <!-- Nav Links -->
+  <a routerLink="/songs" routerLinkActive="!text-primary bg-white/[0.06]" [routerLinkActiveOptions]="{exact: true}"
+     class="text-[13px] font-semibold text-white/60 hover:text-white hover:bg-white/[0.04] transition-all flex items-center gap-1.5 px-3.5 py-2 rounded-full">
+    <mat-icon class="icon-sm">home</mat-icon> Home
+  </a>
+  <a routerLink="/artists" routerLinkActive="!text-primary bg-white/[0.06]"
+     class="text-[13px] font-semibold text-white/60 hover:text-white hover:bg-white/[0.04] transition-all flex items-center gap-1.5 px-3.5 py-2 rounded-full">
+    <mat-icon class="icon-sm">explore</mat-icon> Browse
+  </a>
+  <a routerLink="/playlists" routerLinkActive="!text-primary bg-white/[0.06]"
+     class="text-[13px] font-semibold text-white/60 hover:text-white hover:bg-white/[0.04] transition-all flex items-center gap-1.5 px-3.5 py-2 rounded-full">
+    <mat-icon class="icon-sm">library_music</mat-icon> Library
+  </a>
+  <a routerLink="/liked" routerLinkActive="!text-primary bg-white/[0.06]"
+     class="text-[13px] font-semibold text-white/60 hover:text-white hover:bg-white/[0.04] transition-all flex items-center gap-1.5 px-3.5 py-2 rounded-full">
+    <mat-icon class="icon-sm">favorite</mat-icon> Liked
+  </a>
+  <a routerLink="/feedback" routerLinkActive="!text-primary bg-white/[0.06]"
+     class="text-[13px] font-semibold text-white/60 hover:text-white hover:bg-white/[0.04] transition-all flex items-center gap-1.5 px-3.5 py-2 rounded-full">
+    <mat-icon class="icon-sm">chat_bubble_outline</mat-icon> Feedback
+  </a>
+
+  <!-- Spacer -->
+  <div class="flex-1"></div>
+
+  <!-- Notification Bell -->
+  <button mat-icon-button [matMenuTriggerFor]="notifMenu" class="text-white/50 hover:text-white transition-colors relative">
+    <mat-icon class="icon-md" [matBadge]="unreadCount" [matBadgeHidden]="unreadCount === 0" matBadgeColor="warn" matBadgeSize="small">notifications_none</mat-icon>
+  </button>
+
+  <!-- Notification Panel -->
+  <mat-menu #notifMenu="matMenu" class="notification-panel" xPosition="before">
+    <div class="px-4 py-3 flex items-center justify-between border-b border-white/[0.06]" (click)="$event.stopPropagation()">
+      <span class="text-sm font-bold text-white">Notifications</span>
+      <button *ngIf="unreadCount > 0" (click)="markAllAsRead()" class="text-xs text-amber-400 hover:underline">Mark all read</button>
+    </div>
+    <div *ngIf="notifications.length === 0" class="px-4 py-8 text-center text-white/40 text-sm">
+      No notifications
+    </div>
+    <button *ngFor="let n of notifications" mat-menu-item (click)="markAsRead(n.id)"
+            class="notification-item" [class.unread]="!n.read">
+      <div class="flex items-start gap-3 py-1">
+        <div class="w-8 h-8 rounded-lg flex items-center justify-center shrink-0"
+             [class]="n.read ? 'bg-white/[0.04]' : 'bg-amber-400/10'">
+          <mat-icon class="icon-sm" [class]="n.read ? 'text-white/40' : 'text-amber-400'">{{ n.icon }}</mat-icon>
+        </div>
+        <div class="min-w-0">
+          <p class="text-sm font-medium text-white/90 leading-tight">{{ n.title }}</p>
+          <p class="text-xs text-white/40 mt-0.5 truncate">{{ n.message }}</p>
+          <p class="text-[10px] text-white/25 mt-1">{{ n.time }}</p>
+        </div>
+        <div *ngIf="!n.read" class="w-2 h-2 rounded-full bg-amber-400 shrink-0 mt-1.5"></div>
+      </div>
+    </button>
+  </mat-menu>
+
+  <!-- User Avatar / Sign In -->
+  <ng-container *ngIf="user; else signInLink">
+    <button [matMenuTriggerFor]="userMenu"
+            class="w-9 h-9 rounded-full bg-gradient-to-br from-primary via-yellow-400 to-primary flex items-center justify-center text-black font-bold text-sm shadow-lg shadow-primary/20 hover:shadow-primary/40 transition-shadow ml-1 cursor-pointer">
+      {{ userInitial }}
+    </button>
+    <mat-menu #userMenu="matMenu" xPosition="before">
+      <div class="px-4 py-3 border-b border-white/[0.06]" (click)="$event.stopPropagation()">
+        <p class="text-sm font-semibold text-white">{{ user.name }}</p>
+        <p class="text-xs text-white/40">{{ user.email }}</p>
+      </div>
+      <button mat-menu-item routerLink="/playlists">
+        <mat-icon class="icon-sm">library_music</mat-icon>
+        <span>My Library</span>
+      </button>
+      <button mat-menu-item routerLink="/liked">
+        <mat-icon class="icon-sm">favorite</mat-icon>
+        <span>Liked Songs</span>
+      </button>
+      <div class="border-t border-white/[0.06] my-1"></div>
+      <button mat-menu-item (click)="logout()">
+        <mat-icon class="icon-sm text-red-400">logout</mat-icon>
+        <span class="text-red-400">Sign Out</span>
+      </button>
+    </mat-menu>
+  </ng-container>
+  <ng-template #signInLink>
+    <a routerLink="/login"
+       class="ml-1 px-3 py-1.5 rounded-full bg-gradient-to-r from-amber-400 to-orange-500 text-black text-[11px] font-bold hover:from-amber-300 hover:to-orange-400 transition-all whitespace-nowrap leading-tight">
+      Sign In
+    </a>
+  </ng-template>
+</nav>

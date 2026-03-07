@@ -1,0 +1,2253 @@
+{
+  "songs": [
+    {
+      "id": 1,
+      "title": "Starlight Serenade",
+      "artistId": 1,
+      "albumId": 1,
+      "duration": 234,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+      "coverUrl": "https://picsum.photos/seed/song1/300/300",
+      "genre": "Pop"
+    },
+    {
+      "id": 2,
+      "title": "Digital Heartbeat",
+      "artistId": 2,
+      "albumId": 3,
+      "duration": 271,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+      "coverUrl": "https://picsum.photos/seed/song2/300/300",
+      "genre": "Rock"
+    },
+    {
+      "id": 3,
+      "title": "Whispers in the Wind",
+      "artistId": 3,
+      "albumId": 4,
+      "duration": 308,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+      "coverUrl": "https://picsum.photos/seed/song3/300/300",
+      "genre": "Jazz"
+    },
+    {
+      "id": 4,
+      "title": "Crimson Sunset",
+      "artistId": 4,
+      "albumId": 5,
+      "duration": 345,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
+      "coverUrl": "https://picsum.photos/seed/song4/300/300",
+      "genre": "Classical"
+    },
+    {
+      "id": 5,
+      "title": "Ocean Drive",
+      "artistId": 5,
+      "albumId": 6,
+      "duration": 201,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
+      "coverUrl": "https://picsum.photos/seed/song5/300/300",
+      "genre": "Hip Hop"
+    },
+    {
+      "id": 6,
+      "title": "Phantom Shadows",
+      "artistId": 6,
+      "albumId": 7,
+      "duration": 238,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
+      "coverUrl": "https://picsum.photos/seed/song6/300/300",
+      "genre": "R&B"
+    },
+    {
+      "id": 7,
+      "title": "Diamond Skies",
+      "artistId": 7,
+      "albumId": 8,
+      "duration": 275,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3",
+      "coverUrl": "https://picsum.photos/seed/song7/300/300",
+      "genre": "Electronic"
+    },
+    {
+      "id": 8,
+      "title": "Burning Desire",
+      "artistId": 8,
+      "albumId": 9,
+      "duration": 312,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3",
+      "coverUrl": "https://picsum.photos/seed/song8/300/300",
+      "genre": "Country"
+    },
+    {
+      "id": 9,
+      "title": "Moonlit Garden",
+      "artistId": 9,
+      "albumId": 10,
+      "duration": 349,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3",
+      "coverUrl": "https://picsum.photos/seed/song9/300/300",
+      "genre": "Blues"
+    },
+    {
+      "id": 10,
+      "title": "Supernova Dreams",
+      "artistId": 10,
+      "albumId": 12,
+      "duration": 205,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3",
+      "coverUrl": "https://picsum.photos/seed/song10/300/300",
+      "genre": "Reggae"
+    },
+    {
+      "id": 11,
+      "title": "Electric Paradise",
+      "artistId": 1,
+      "albumId": 1,
+      "duration": 242,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-11.mp3",
+      "coverUrl": "https://picsum.photos/seed/song11/300/300",
+      "genre": "Metal"
+    },
+    {
+      "id": 12,
+      "title": "Neon Nightfall",
+      "artistId": 2,
+      "albumId": 3,
+      "duration": 279,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-12.mp3",
+      "coverUrl": "https://picsum.photos/seed/song12/300/300",
+      "genre": "Folk"
+    },
+    {
+      "id": 13,
+      "title": "Silk and Satin",
+      "artistId": 3,
+      "albumId": 4,
+      "duration": 316,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-13.mp3",
+      "coverUrl": "https://picsum.photos/seed/song13/300/300",
+      "genre": "Soul"
+    },
+    {
+      "id": 14,
+      "title": "Waves of Thunder",
+      "artistId": 4,
+      "albumId": 5,
+      "duration": 353,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-14.mp3",
+      "coverUrl": "https://picsum.photos/seed/song14/300/300",
+      "genre": "Funk"
+    },
+    {
+      "id": 15,
+      "title": "Celestial Dance",
+      "artistId": 5,
+      "albumId": 6,
+      "duration": 209,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-15.mp3",
+      "coverUrl": "https://picsum.photos/seed/song15/300/300",
+      "genre": "Latin"
+    },
+    {
+      "id": 16,
+      "title": "Dark Corridors",
+      "artistId": 6,
+      "albumId": 7,
+      "duration": 246,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-16.mp3",
+      "coverUrl": "https://picsum.photos/seed/song16/300/300",
+      "genre": "Indie"
+    },
+    {
+      "id": 17,
+      "title": "Prism of Light",
+      "artistId": 7,
+      "albumId": 8,
+      "duration": 283,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+      "coverUrl": "https://picsum.photos/seed/song17/300/300",
+      "genre": "Alternative"
+    },
+    {
+      "id": 18,
+      "title": "Volcanic Rush",
+      "artistId": 8,
+      "albumId": 9,
+      "duration": 320,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+      "coverUrl": "https://picsum.photos/seed/song18/300/300",
+      "genre": "Ambient"
+    },
+    {
+      "id": 19,
+      "title": "Petal Storm",
+      "artistId": 9,
+      "albumId": 10,
+      "duration": 357,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+      "coverUrl": "https://picsum.photos/seed/song19/300/300",
+      "genre": "Lo-fi"
+    },
+    {
+      "id": 20,
+      "title": "Helios Rising",
+      "artistId": 10,
+      "albumId": 12,
+      "duration": 213,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
+      "coverUrl": "https://picsum.photos/seed/song20/300/300",
+      "genre": "Dance"
+    },
+    {
+      "id": 21,
+      "title": "Dawn Chorus",
+      "artistId": 1,
+      "albumId": 1,
+      "duration": 250,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
+      "coverUrl": "https://picsum.photos/seed/song21/300/300",
+      "genre": "Pop"
+    },
+    {
+      "id": 22,
+      "title": "Synthetic Love",
+      "artistId": 2,
+      "albumId": 3,
+      "duration": 287,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
+      "coverUrl": "https://picsum.photos/seed/song22/300/300",
+      "genre": "Rock"
+    },
+    {
+      "id": 23,
+      "title": "Velvet Midnight",
+      "artistId": 3,
+      "albumId": 4,
+      "duration": 324,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3",
+      "coverUrl": "https://picsum.photos/seed/song23/300/300",
+      "genre": "Jazz"
+    },
+    {
+      "id": 24,
+      "title": "Scarlet Rain",
+      "artistId": 4,
+      "albumId": 5,
+      "duration": 180,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3",
+      "coverUrl": "https://picsum.photos/seed/song24/300/300",
+      "genre": "Classical"
+    },
+    {
+      "id": 25,
+      "title": "Tidal Whispers",
+      "artistId": 5,
+      "albumId": 6,
+      "duration": 217,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3",
+      "coverUrl": "https://picsum.photos/seed/song25/300/300",
+      "genre": "Hip Hop"
+    },
+    {
+      "id": 26,
+      "title": "Ghost Protocol",
+      "artistId": 6,
+      "albumId": 7,
+      "duration": 254,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3",
+      "coverUrl": "https://picsum.photos/seed/song26/300/300",
+      "genre": "R&B"
+    },
+    {
+      "id": 27,
+      "title": "Alpine Glow",
+      "artistId": 7,
+      "albumId": 8,
+      "duration": 291,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-11.mp3",
+      "coverUrl": "https://picsum.photos/seed/song27/300/300",
+      "genre": "Electronic"
+    },
+    {
+      "id": 28,
+      "title": "Inferno Waltz",
+      "artistId": 8,
+      "albumId": 9,
+      "duration": 328,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-12.mp3",
+      "coverUrl": "https://picsum.photos/seed/song28/300/300",
+      "genre": "Country"
+    },
+    {
+      "id": 29,
+      "title": "Orchid Dreams",
+      "artistId": 9,
+      "albumId": 10,
+      "duration": 184,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-13.mp3",
+      "coverUrl": "https://picsum.photos/seed/song29/300/300",
+      "genre": "Blues"
+    },
+    {
+      "id": 30,
+      "title": "Cosmic Rays",
+      "artistId": 10,
+      "albumId": 12,
+      "duration": 221,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-14.mp3",
+      "coverUrl": "https://picsum.photos/seed/song30/300/300",
+      "genre": "Reggae"
+    },
+    {
+      "id": 31,
+      "title": "Chasing Horizons",
+      "artistId": 1,
+      "albumId": 1,
+      "duration": 234,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-15.mp3",
+      "coverUrl": "https://picsum.photos/seed/song31/300/300",
+      "genre": "Metal"
+    },
+    {
+      "id": 32,
+      "title": "Frequency Shift",
+      "artistId": 2,
+      "albumId": 3,
+      "duration": 271,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-16.mp3",
+      "coverUrl": "https://picsum.photos/seed/song32/300/300",
+      "genre": "Folk"
+    },
+    {
+      "id": 33,
+      "title": "Echo Chamber",
+      "artistId": 3,
+      "albumId": 4,
+      "duration": 308,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+      "coverUrl": "https://picsum.photos/seed/song33/300/300",
+      "genre": "Soul"
+    },
+    {
+      "id": 34,
+      "title": "Blood Moon",
+      "artistId": 4,
+      "albumId": 5,
+      "duration": 345,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+      "coverUrl": "https://picsum.photos/seed/song34/300/300",
+      "genre": "Funk"
+    },
+    {
+      "id": 35,
+      "title": "Driftwood",
+      "artistId": 5,
+      "albumId": 6,
+      "duration": 201,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+      "coverUrl": "https://picsum.photos/seed/song35/300/300",
+      "genre": "Latin"
+    },
+    {
+      "id": 36,
+      "title": "Silent Footsteps",
+      "artistId": 6,
+      "albumId": 7,
+      "duration": 238,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
+      "coverUrl": "https://picsum.photos/seed/song36/300/300",
+      "genre": "Indie"
+    },
+    {
+      "id": 37,
+      "title": "Ice Cathedral",
+      "artistId": 7,
+      "albumId": 8,
+      "duration": 275,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
+      "coverUrl": "https://picsum.photos/seed/song37/300/300",
+      "genre": "Alternative"
+    },
+    {
+      "id": 38,
+      "title": "Wildfire Heart",
+      "artistId": 8,
+      "albumId": 9,
+      "duration": 312,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
+      "coverUrl": "https://picsum.photos/seed/song38/300/300",
+      "genre": "Ambient"
+    },
+    {
+      "id": 39,
+      "title": "Nocturne Bloom",
+      "artistId": 9,
+      "albumId": 10,
+      "duration": 349,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3",
+      "coverUrl": "https://picsum.photos/seed/song39/300/300",
+      "genre": "Lo-fi"
+    },
+    {
+      "id": 40,
+      "title": "Plasma Wave",
+      "artistId": 10,
+      "albumId": 12,
+      "duration": 205,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3",
+      "coverUrl": "https://picsum.photos/seed/song40/300/300",
+      "genre": "Dance"
+    },
+    {
+      "id": 41,
+      "title": "Golden Hour",
+      "artistId": 1,
+      "albumId": 1,
+      "duration": 242,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3",
+      "coverUrl": "https://picsum.photos/seed/song41/300/300",
+      "genre": "Pop"
+    },
+    {
+      "id": 42,
+      "title": "Circuit Breaker",
+      "artistId": 2,
+      "albumId": 3,
+      "duration": 279,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3",
+      "coverUrl": "https://picsum.photos/seed/song42/300/300",
+      "genre": "Rock"
+    },
+    {
+      "id": 43,
+      "title": "Fading Echoes",
+      "artistId": 3,
+      "albumId": 4,
+      "duration": 316,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-11.mp3",
+      "coverUrl": "https://picsum.photos/seed/song43/300/300",
+      "genre": "Jazz"
+    },
+    {
+      "id": 44,
+      "title": "Raging Seas",
+      "artistId": 4,
+      "albumId": 5,
+      "duration": 353,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-12.mp3",
+      "coverUrl": "https://picsum.photos/seed/song44/300/300",
+      "genre": "Classical"
+    },
+    {
+      "id": 45,
+      "title": "Starfall",
+      "artistId": 5,
+      "albumId": 6,
+      "duration": 209,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-13.mp3",
+      "coverUrl": "https://picsum.photos/seed/song45/300/300",
+      "genre": "Hip Hop"
+    },
+    {
+      "id": 46,
+      "title": "Vanishing Point",
+      "artistId": 6,
+      "albumId": 7,
+      "duration": 246,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-14.mp3",
+      "coverUrl": "https://picsum.photos/seed/song46/300/300",
+      "genre": "R&B"
+    },
+    {
+      "id": 47,
+      "title": "Crystal Caves",
+      "artistId": 7,
+      "albumId": 8,
+      "duration": 283,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-15.mp3",
+      "coverUrl": "https://picsum.photos/seed/song47/300/300",
+      "genre": "Electronic"
+    },
+    {
+      "id": 48,
+      "title": "Phoenix Rise",
+      "artistId": 8,
+      "albumId": 9,
+      "duration": 320,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-16.mp3",
+      "coverUrl": "https://picsum.photos/seed/song48/300/300",
+      "genre": "Country"
+    },
+    {
+      "id": 49,
+      "title": "Twilight Petals",
+      "artistId": 9,
+      "albumId": 10,
+      "duration": 357,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+      "coverUrl": "https://picsum.photos/seed/song49/300/300",
+      "genre": "Blues"
+    },
+    {
+      "id": 50,
+      "title": "Solar Wind",
+      "artistId": 10,
+      "albumId": 12,
+      "duration": 213,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+      "coverUrl": "https://picsum.photos/seed/song50/300/300",
+      "genre": "Reggae"
+    },
+    {
+      "id": 51,
+      "title": "Aurora Skies",
+      "artistId": 1,
+      "albumId": 1,
+      "duration": 250,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+      "coverUrl": "https://picsum.photos/seed/song51/300/300",
+      "genre": "Metal"
+    },
+    {
+      "id": 52,
+      "title": "Pulse of the City",
+      "artistId": 2,
+      "albumId": 3,
+      "duration": 287,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
+      "coverUrl": "https://picsum.photos/seed/song52/300/300",
+      "genre": "Folk"
+    },
+    {
+      "id": 53,
+      "title": "Hollow Resonance",
+      "artistId": 3,
+      "albumId": 4,
+      "duration": 324,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
+      "coverUrl": "https://picsum.photos/seed/song53/300/300",
+      "genre": "Soul"
+    },
+    {
+      "id": 54,
+      "title": "Tempest King",
+      "artistId": 4,
+      "albumId": 5,
+      "duration": 180,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
+      "coverUrl": "https://picsum.photos/seed/song54/300/300",
+      "genre": "Funk"
+    },
+    {
+      "id": 55,
+      "title": "Moonrise",
+      "artistId": 5,
+      "albumId": 6,
+      "duration": 217,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3",
+      "coverUrl": "https://picsum.photos/seed/song55/300/300",
+      "genre": "Latin"
+    },
+    {
+      "id": 56,
+      "title": "Shadow Walker",
+      "artistId": 6,
+      "albumId": 7,
+      "duration": 254,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3",
+      "coverUrl": "https://picsum.photos/seed/song56/300/300",
+      "genre": "Indie"
+    },
+    {
+      "id": 57,
+      "title": "Frozen Peaks",
+      "artistId": 7,
+      "albumId": 8,
+      "duration": 291,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3",
+      "coverUrl": "https://picsum.photos/seed/song57/300/300",
+      "genre": "Alternative"
+    },
+    {
+      "id": 58,
+      "title": "Ember Glow",
+      "artistId": 8,
+      "albumId": 9,
+      "duration": 328,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3",
+      "coverUrl": "https://picsum.photos/seed/song58/300/300",
+      "genre": "Ambient"
+    },
+    {
+      "id": 59,
+      "title": "Night Jasmine",
+      "artistId": 9,
+      "albumId": 10,
+      "duration": 184,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-11.mp3",
+      "coverUrl": "https://picsum.photos/seed/song59/300/300",
+      "genre": "Lo-fi"
+    },
+    {
+      "id": 60,
+      "title": "Radiant Core",
+      "artistId": 10,
+      "albumId": 12,
+      "duration": 221,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-12.mp3",
+      "coverUrl": "https://picsum.photos/seed/song60/300/300",
+      "genre": "Dance"
+    },
+    {
+      "id": 61,
+      "title": "Broken Compass",
+      "artistId": 1,
+      "albumId": 1,
+      "duration": 234,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-13.mp3",
+      "coverUrl": "https://picsum.photos/seed/song61/300/300",
+      "genre": "Pop"
+    },
+    {
+      "id": 62,
+      "title": "Cybernetic Soul",
+      "artistId": 2,
+      "albumId": 3,
+      "duration": 271,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-14.mp3",
+      "coverUrl": "https://picsum.photos/seed/song62/300/300",
+      "genre": "Rock"
+    },
+    {
+      "id": 63,
+      "title": "Mirage",
+      "artistId": 3,
+      "albumId": 4,
+      "duration": 308,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-15.mp3",
+      "coverUrl": "https://picsum.photos/seed/song63/300/300",
+      "genre": "Jazz"
+    },
+    {
+      "id": 64,
+      "title": "Iron Will",
+      "artistId": 4,
+      "albumId": 5,
+      "duration": 345,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-16.mp3",
+      "coverUrl": "https://picsum.photos/seed/song64/300/300",
+      "genre": "Classical"
+    },
+    {
+      "id": 65,
+      "title": "Sapphire Tides",
+      "artistId": 5,
+      "albumId": 6,
+      "duration": 201,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+      "coverUrl": "https://picsum.photos/seed/song65/300/300",
+      "genre": "Hip Hop"
+    },
+    {
+      "id": 66,
+      "title": "Wraith Dance",
+      "artistId": 6,
+      "albumId": 7,
+      "duration": 238,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+      "coverUrl": "https://picsum.photos/seed/song66/300/300",
+      "genre": "R&B"
+    },
+    {
+      "id": 67,
+      "title": "Snowfall Symphony",
+      "artistId": 7,
+      "albumId": 8,
+      "duration": 275,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+      "coverUrl": "https://picsum.photos/seed/song67/300/300",
+      "genre": "Electronic"
+    },
+    {
+      "id": 68,
+      "title": "Lava Flow",
+      "artistId": 8,
+      "albumId": 9,
+      "duration": 312,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
+      "coverUrl": "https://picsum.photos/seed/song68/300/300",
+      "genre": "Country"
+    },
+    {
+      "id": 69,
+      "title": "Blackthorn",
+      "artistId": 9,
+      "albumId": 10,
+      "duration": 349,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
+      "coverUrl": "https://picsum.photos/seed/song69/300/300",
+      "genre": "Blues"
+    },
+    {
+      "id": 70,
+      "title": "Mercury Ascent",
+      "artistId": 10,
+      "albumId": 12,
+      "duration": 205,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
+      "coverUrl": "https://picsum.photos/seed/song70/300/300",
+      "genre": "Reggae"
+    },
+    {
+      "id": 71,
+      "title": "Painted Sky",
+      "artistId": 1,
+      "albumId": 1,
+      "duration": 242,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3",
+      "coverUrl": "https://picsum.photos/seed/song71/300/300",
+      "genre": "Metal"
+    },
+    {
+      "id": 72,
+      "title": "Bass Cathedral",
+      "artistId": 2,
+      "albumId": 3,
+      "duration": 279,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3",
+      "coverUrl": "https://picsum.photos/seed/song72/300/300",
+      "genre": "Folk"
+    },
+    {
+      "id": 73,
+      "title": "Silent Echo",
+      "artistId": 3,
+      "albumId": 4,
+      "duration": 316,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3",
+      "coverUrl": "https://picsum.photos/seed/song73/300/300",
+      "genre": "Soul"
+    },
+    {
+      "id": 74,
+      "title": "Thunder Road",
+      "artistId": 4,
+      "albumId": 5,
+      "duration": 353,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3",
+      "coverUrl": "https://picsum.photos/seed/song74/300/300",
+      "genre": "Funk"
+    },
+    {
+      "id": 75,
+      "title": "Gravity Well",
+      "artistId": 5,
+      "albumId": 6,
+      "duration": 209,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-11.mp3",
+      "coverUrl": "https://picsum.photos/seed/song75/300/300",
+      "genre": "Latin"
+    },
+    {
+      "id": 76,
+      "title": "Fading Shadows",
+      "artistId": 6,
+      "albumId": 7,
+      "duration": 246,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-12.mp3",
+      "coverUrl": "https://picsum.photos/seed/song76/300/300",
+      "genre": "Indie"
+    },
+    {
+      "id": 77,
+      "title": "Quartz Heart",
+      "artistId": 7,
+      "albumId": 8,
+      "duration": 283,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-13.mp3",
+      "coverUrl": "https://picsum.photos/seed/song77/300/300",
+      "genre": "Alternative"
+    },
+    {
+      "id": 78,
+      "title": "Firestorm",
+      "artistId": 8,
+      "albumId": 9,
+      "duration": 320,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-14.mp3",
+      "coverUrl": "https://picsum.photos/seed/song78/300/300",
+      "genre": "Ambient"
+    },
+    {
+      "id": 79,
+      "title": "Willow Breeze",
+      "artistId": 9,
+      "albumId": 10,
+      "duration": 357,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-15.mp3",
+      "coverUrl": "https://picsum.photos/seed/song79/300/300",
+      "genre": "Lo-fi"
+    },
+    {
+      "id": 80,
+      "title": "Sunspot",
+      "artistId": 10,
+      "albumId": 12,
+      "duration": 213,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-16.mp3",
+      "coverUrl": "https://picsum.photos/seed/song80/300/300",
+      "genre": "Dance"
+    },
+    {
+      "id": 81,
+      "title": "Northern Lights",
+      "artistId": 1,
+      "albumId": 1,
+      "duration": 250,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+      "coverUrl": "https://picsum.photos/seed/song81/300/300",
+      "genre": "Pop"
+    },
+    {
+      "id": 82,
+      "title": "Retrograde",
+      "artistId": 2,
+      "albumId": 3,
+      "duration": 287,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+      "coverUrl": "https://picsum.photos/seed/song82/300/300",
+      "genre": "Rock"
+    },
+    {
+      "id": 83,
+      "title": "Satin Moonlight",
+      "artistId": 3,
+      "albumId": 4,
+      "duration": 324,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+      "coverUrl": "https://picsum.photos/seed/song83/300/300",
+      "genre": "Jazz"
+    },
+    {
+      "id": 84,
+      "title": "Red Horizon",
+      "artistId": 4,
+      "albumId": 5,
+      "duration": 180,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
+      "coverUrl": "https://picsum.photos/seed/song84/300/300",
+      "genre": "Classical"
+    },
+    {
+      "id": 85,
+      "title": "Paper Boats",
+      "artistId": 5,
+      "albumId": 6,
+      "duration": 217,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
+      "coverUrl": "https://picsum.photos/seed/song85/300/300",
+      "genre": "Hip Hop"
+    },
+    {
+      "id": 86,
+      "title": "Smoke and Mirrors",
+      "artistId": 6,
+      "albumId": 7,
+      "duration": 254,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
+      "coverUrl": "https://picsum.photos/seed/song86/300/300",
+      "genre": "R&B"
+    },
+    {
+      "id": 87,
+      "title": "Glacier Blue",
+      "artistId": 7,
+      "albumId": 8,
+      "duration": 291,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3",
+      "coverUrl": "https://picsum.photos/seed/song87/300/300",
+      "genre": "Electronic"
+    },
+    {
+      "id": 88,
+      "title": "Ignition Point",
+      "artistId": 8,
+      "albumId": 9,
+      "duration": 328,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3",
+      "coverUrl": "https://picsum.photos/seed/song88/300/300",
+      "genre": "Country"
+    },
+    {
+      "id": 89,
+      "title": "Lavender Haze",
+      "artistId": 9,
+      "albumId": 10,
+      "duration": 184,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3",
+      "coverUrl": "https://picsum.photos/seed/song89/300/300",
+      "genre": "Blues"
+    },
+    {
+      "id": 90,
+      "title": "Stellar Collapse",
+      "artistId": 10,
+      "albumId": 12,
+      "duration": 221,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3",
+      "coverUrl": "https://picsum.photos/seed/song90/300/300",
+      "genre": "Reggae"
+    },
+    {
+      "id": 91,
+      "title": "Morning Glow",
+      "artistId": 1,
+      "albumId": 1,
+      "duration": 234,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-11.mp3",
+      "coverUrl": "https://picsum.photos/seed/song91/300/300",
+      "genre": "Metal"
+    },
+    {
+      "id": 92,
+      "title": "Waveform",
+      "artistId": 2,
+      "albumId": 3,
+      "duration": 271,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-12.mp3",
+      "coverUrl": "https://picsum.photos/seed/song92/300/300",
+      "genre": "Folk"
+    },
+    {
+      "id": 93,
+      "title": "Porcelain Dreams",
+      "artistId": 3,
+      "albumId": 4,
+      "duration": 308,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-13.mp3",
+      "coverUrl": "https://picsum.photos/seed/song93/300/300",
+      "genre": "Soul"
+    },
+    {
+      "id": 94,
+      "title": "Crimson Flood",
+      "artistId": 4,
+      "albumId": 5,
+      "duration": 345,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-14.mp3",
+      "coverUrl": "https://picsum.photos/seed/song94/300/300",
+      "genre": "Funk"
+    },
+    {
+      "id": 95,
+      "title": "Lunar Eclipse",
+      "artistId": 5,
+      "albumId": 6,
+      "duration": 201,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-15.mp3",
+      "coverUrl": "https://picsum.photos/seed/song95/300/300",
+      "genre": "Latin"
+    },
+    {
+      "id": 96,
+      "title": "Phantom Requiem",
+      "artistId": 6,
+      "albumId": 7,
+      "duration": 238,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-16.mp3",
+      "coverUrl": "https://picsum.photos/seed/song96/300/300",
+      "genre": "Indie"
+    },
+    {
+      "id": 97,
+      "title": "Topaz Sky",
+      "artistId": 7,
+      "albumId": 8,
+      "duration": 275,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+      "coverUrl": "https://picsum.photos/seed/song97/300/300",
+      "genre": "Alternative"
+    },
+    {
+      "id": 98,
+      "title": "Magma Core",
+      "artistId": 8,
+      "albumId": 9,
+      "duration": 312,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+      "coverUrl": "https://picsum.photos/seed/song98/300/300",
+      "genre": "Ambient"
+    },
+    {
+      "id": 99,
+      "title": "Cherry Blossom Rain",
+      "artistId": 9,
+      "albumId": 10,
+      "duration": 349,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+      "coverUrl": "https://picsum.photos/seed/song99/300/300",
+      "genre": "Lo-fi"
+    },
+    {
+      "id": 100,
+      "title": "Ion Storm",
+      "artistId": 10,
+      "albumId": 12,
+      "duration": 205,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
+      "coverUrl": "https://picsum.photos/seed/song100/300/300",
+      "genre": "Dance"
+    },
+    {
+      "id": 101,
+      "title": "Daybreak",
+      "artistId": 1,
+      "albumId": 1,
+      "duration": 242,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
+      "coverUrl": "https://picsum.photos/seed/song101/300/300",
+      "genre": "Pop"
+    },
+    {
+      "id": 102,
+      "title": "Analog Memories",
+      "artistId": 2,
+      "albumId": 3,
+      "duration": 279,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
+      "coverUrl": "https://picsum.photos/seed/song102/300/300",
+      "genre": "Rock"
+    },
+    {
+      "id": 103,
+      "title": "Obsidian Mirror",
+      "artistId": 3,
+      "albumId": 4,
+      "duration": 316,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3",
+      "coverUrl": "https://picsum.photos/seed/song103/300/300",
+      "genre": "Jazz"
+    },
+    {
+      "id": 104,
+      "title": "Riptide",
+      "artistId": 4,
+      "albumId": 5,
+      "duration": 353,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3",
+      "coverUrl": "https://picsum.photos/seed/song104/300/300",
+      "genre": "Classical"
+    },
+    {
+      "id": 105,
+      "title": "Pearl Diver",
+      "artistId": 5,
+      "albumId": 6,
+      "duration": 209,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3",
+      "coverUrl": "https://picsum.photos/seed/song105/300/300",
+      "genre": "Hip Hop"
+    },
+    {
+      "id": 106,
+      "title": "Dusk Wanderer",
+      "artistId": 6,
+      "albumId": 7,
+      "duration": 246,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3",
+      "coverUrl": "https://picsum.photos/seed/song106/300/300",
+      "genre": "R&B"
+    },
+    {
+      "id": 107,
+      "title": "Silver Lining",
+      "artistId": 7,
+      "albumId": 8,
+      "duration": 283,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-11.mp3",
+      "coverUrl": "https://picsum.photos/seed/song107/300/300",
+      "genre": "Electronic"
+    },
+    {
+      "id": 108,
+      "title": "Afterburn",
+      "artistId": 8,
+      "albumId": 9,
+      "duration": 320,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-12.mp3",
+      "coverUrl": "https://picsum.photos/seed/song108/300/300",
+      "genre": "Country"
+    },
+    {
+      "id": 109,
+      "title": "Midnight Rose",
+      "artistId": 9,
+      "albumId": 10,
+      "duration": 357,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-13.mp3",
+      "coverUrl": "https://picsum.photos/seed/song109/300/300",
+      "genre": "Blues"
+    },
+    {
+      "id": 110,
+      "title": "Corona",
+      "artistId": 10,
+      "albumId": 12,
+      "duration": 213,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-14.mp3",
+      "coverUrl": "https://picsum.photos/seed/song110/300/300",
+      "genre": "Reggae"
+    },
+    {
+      "id": 111,
+      "title": "Tangerine Dream",
+      "artistId": 1,
+      "albumId": 2,
+      "duration": 250,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-15.mp3",
+      "coverUrl": "https://picsum.photos/seed/song111/300/300",
+      "genre": "Metal"
+    },
+    {
+      "id": 112,
+      "title": "Sub Zero",
+      "artistId": 2,
+      "albumId": 3,
+      "duration": 287,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-16.mp3",
+      "coverUrl": "https://picsum.photos/seed/song112/300/300",
+      "genre": "Folk"
+    },
+    {
+      "id": 113,
+      "title": "Ivory Tower",
+      "artistId": 3,
+      "albumId": 4,
+      "duration": 324,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+      "coverUrl": "https://picsum.photos/seed/song113/300/300",
+      "genre": "Soul"
+    },
+    {
+      "id": 114,
+      "title": "Stormchaser",
+      "artistId": 4,
+      "albumId": 5,
+      "duration": 180,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+      "coverUrl": "https://picsum.photos/seed/song114/300/300",
+      "genre": "Funk"
+    },
+    {
+      "id": 115,
+      "title": "Coral Reef",
+      "artistId": 5,
+      "albumId": 6,
+      "duration": 217,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+      "coverUrl": "https://picsum.photos/seed/song115/300/300",
+      "genre": "Latin"
+    },
+    {
+      "id": 116,
+      "title": "Eclipse Protocol",
+      "artistId": 6,
+      "albumId": 7,
+      "duration": 254,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
+      "coverUrl": "https://picsum.photos/seed/song116/300/300",
+      "genre": "Indie"
+    },
+    {
+      "id": 117,
+      "title": "Frosted Glass",
+      "artistId": 7,
+      "albumId": 8,
+      "duration": 291,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
+      "coverUrl": "https://picsum.photos/seed/song117/300/300",
+      "genre": "Alternative"
+    },
+    {
+      "id": 118,
+      "title": "Trail Blazer",
+      "artistId": 8,
+      "albumId": 9,
+      "duration": 328,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
+      "coverUrl": "https://picsum.photos/seed/song118/300/300",
+      "genre": "Ambient"
+    },
+    {
+      "id": 119,
+      "title": "Indigo Night",
+      "artistId": 9,
+      "albumId": 11,
+      "duration": 184,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3",
+      "coverUrl": "https://picsum.photos/seed/song119/300/300",
+      "genre": "Lo-fi"
+    },
+    {
+      "id": 120,
+      "title": "Photon Beam",
+      "artistId": 10,
+      "albumId": 12,
+      "duration": 221,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3",
+      "coverUrl": "https://picsum.photos/seed/song120/300/300",
+      "genre": "Dance"
+    },
+    {
+      "id": 121,
+      "title": "Amber Waves",
+      "artistId": 1,
+      "albumId": 2,
+      "duration": 234,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3",
+      "coverUrl": "https://picsum.photos/seed/song121/300/300",
+      "genre": "Pop"
+    },
+    {
+      "id": 122,
+      "title": "Techno Mirage",
+      "artistId": 2,
+      "albumId": 3,
+      "duration": 271,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3",
+      "coverUrl": "https://picsum.photos/seed/song122/300/300",
+      "genre": "Rock"
+    },
+    {
+      "id": 123,
+      "title": "Whispering Pines",
+      "artistId": 3,
+      "albumId": 4,
+      "duration": 308,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-11.mp3",
+      "coverUrl": "https://picsum.photos/seed/song123/300/300",
+      "genre": "Jazz"
+    },
+    {
+      "id": 124,
+      "title": "Tectonic Shift",
+      "artistId": 4,
+      "albumId": 5,
+      "duration": 345,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-12.mp3",
+      "coverUrl": "https://picsum.photos/seed/song124/300/300",
+      "genre": "Classical"
+    },
+    {
+      "id": 125,
+      "title": "Stargazer",
+      "artistId": 5,
+      "albumId": 6,
+      "duration": 201,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-13.mp3",
+      "coverUrl": "https://picsum.photos/seed/song125/300/300",
+      "genre": "Hip Hop"
+    },
+    {
+      "id": 126,
+      "title": "Spectral Drift",
+      "artistId": 6,
+      "albumId": 7,
+      "duration": 238,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-14.mp3",
+      "coverUrl": "https://picsum.photos/seed/song126/300/300",
+      "genre": "R&B"
+    },
+    {
+      "id": 127,
+      "title": "Mountain Echo",
+      "artistId": 7,
+      "albumId": 8,
+      "duration": 275,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-15.mp3",
+      "coverUrl": "https://picsum.photos/seed/song127/300/300",
+      "genre": "Electronic"
+    },
+    {
+      "id": 128,
+      "title": "Kindling",
+      "artistId": 8,
+      "albumId": 9,
+      "duration": 312,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-16.mp3",
+      "coverUrl": "https://picsum.photos/seed/song128/300/300",
+      "genre": "Country"
+    },
+    {
+      "id": 129,
+      "title": "Violet Hour",
+      "artistId": 9,
+      "albumId": 11,
+      "duration": 349,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+      "coverUrl": "https://picsum.photos/seed/song129/300/300",
+      "genre": "Blues"
+    },
+    {
+      "id": 130,
+      "title": "Gamma Burst",
+      "artistId": 10,
+      "albumId": 12,
+      "duration": 205,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+      "coverUrl": "https://picsum.photos/seed/song130/300/300",
+      "genre": "Reggae"
+    },
+    {
+      "id": 131,
+      "title": "Canvas of Stars",
+      "artistId": 1,
+      "albumId": 2,
+      "duration": 242,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+      "coverUrl": "https://picsum.photos/seed/song131/300/300",
+      "genre": "Metal"
+    },
+    {
+      "id": 132,
+      "title": "Digital Oasis",
+      "artistId": 2,
+      "albumId": 3,
+      "duration": 279,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
+      "coverUrl": "https://picsum.photos/seed/song132/300/300",
+      "genre": "Folk"
+    },
+    {
+      "id": 133,
+      "title": "Remnants",
+      "artistId": 3,
+      "albumId": 4,
+      "duration": 316,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
+      "coverUrl": "https://picsum.photos/seed/song133/300/300",
+      "genre": "Soul"
+    },
+    {
+      "id": 134,
+      "title": "Monsoon",
+      "artistId": 4,
+      "albumId": 5,
+      "duration": 353,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
+      "coverUrl": "https://picsum.photos/seed/song134/300/300",
+      "genre": "Funk"
+    },
+    {
+      "id": 135,
+      "title": "Gentle Current",
+      "artistId": 5,
+      "albumId": 6,
+      "duration": 209,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3",
+      "coverUrl": "https://picsum.photos/seed/song135/300/300",
+      "genre": "Latin"
+    },
+    {
+      "id": 136,
+      "title": "Labyrinth",
+      "artistId": 6,
+      "albumId": 7,
+      "duration": 246,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3",
+      "coverUrl": "https://picsum.photos/seed/song136/300/300",
+      "genre": "Indie"
+    },
+    {
+      "id": 137,
+      "title": "Permafrost",
+      "artistId": 7,
+      "albumId": 8,
+      "duration": 283,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3",
+      "coverUrl": "https://picsum.photos/seed/song137/300/300",
+      "genre": "Alternative"
+    },
+    {
+      "id": 138,
+      "title": "Magnesium Flare",
+      "artistId": 8,
+      "albumId": 9,
+      "duration": 320,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3",
+      "coverUrl": "https://picsum.photos/seed/song138/300/300",
+      "genre": "Ambient"
+    },
+    {
+      "id": 139,
+      "title": "Wisteria Lane",
+      "artistId": 9,
+      "albumId": 11,
+      "duration": 357,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-11.mp3",
+      "coverUrl": "https://picsum.photos/seed/song139/300/300",
+      "genre": "Lo-fi"
+    },
+    {
+      "id": 140,
+      "title": "Pulsar Beat",
+      "artistId": 10,
+      "albumId": 12,
+      "duration": 213,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-12.mp3",
+      "coverUrl": "https://picsum.photos/seed/song140/300/300",
+      "genre": "Dance"
+    },
+    {
+      "id": 141,
+      "title": "Wanderlust",
+      "artistId": 1,
+      "albumId": 2,
+      "duration": 250,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-13.mp3",
+      "coverUrl": "https://picsum.photos/seed/song141/300/300",
+      "genre": "Pop"
+    },
+    {
+      "id": 142,
+      "title": "Electric Voodoo",
+      "artistId": 2,
+      "albumId": 3,
+      "duration": 287,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-14.mp3",
+      "coverUrl": "https://picsum.photos/seed/song142/300/300",
+      "genre": "Rock"
+    },
+    {
+      "id": 143,
+      "title": "Glass Ocean",
+      "artistId": 3,
+      "albumId": 4,
+      "duration": 324,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-15.mp3",
+      "coverUrl": "https://picsum.photos/seed/song143/300/300",
+      "genre": "Jazz"
+    },
+    {
+      "id": 144,
+      "title": "Ironclad",
+      "artistId": 4,
+      "albumId": 5,
+      "duration": 180,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-16.mp3",
+      "coverUrl": "https://picsum.photos/seed/song144/300/300",
+      "genre": "Classical"
+    },
+    {
+      "id": 145,
+      "title": "Sea Foam",
+      "artistId": 5,
+      "albumId": 6,
+      "duration": 217,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+      "coverUrl": "https://picsum.photos/seed/song145/300/300",
+      "genre": "Hip Hop"
+    },
+    {
+      "id": 146,
+      "title": "Night Crawler",
+      "artistId": 6,
+      "albumId": 7,
+      "duration": 254,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+      "coverUrl": "https://picsum.photos/seed/song146/300/300",
+      "genre": "R&B"
+    },
+    {
+      "id": 147,
+      "title": "Sapphire Dust",
+      "artistId": 7,
+      "albumId": 8,
+      "duration": 291,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+      "coverUrl": "https://picsum.photos/seed/song147/300/300",
+      "genre": "Electronic"
+    },
+    {
+      "id": 148,
+      "title": "Ash and Snow",
+      "artistId": 8,
+      "albumId": 9,
+      "duration": 328,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
+      "coverUrl": "https://picsum.photos/seed/song148/300/300",
+      "genre": "Country"
+    },
+    {
+      "id": 149,
+      "title": "Lotus Pond",
+      "artistId": 9,
+      "albumId": 11,
+      "duration": 184,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
+      "coverUrl": "https://picsum.photos/seed/song149/300/300",
+      "genre": "Blues"
+    },
+    {
+      "id": 150,
+      "title": "Heliosphere",
+      "artistId": 10,
+      "albumId": 12,
+      "duration": 221,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
+      "coverUrl": "https://picsum.photos/seed/song150/300/300",
+      "genre": "Reggae"
+    },
+    {
+      "id": 151,
+      "title": "First Light",
+      "artistId": 1,
+      "albumId": 2,
+      "duration": 234,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3",
+      "coverUrl": "https://picsum.photos/seed/song151/300/300",
+      "genre": "Metal"
+    },
+    {
+      "id": 152,
+      "title": "Chrome Hearts",
+      "artistId": 2,
+      "albumId": 3,
+      "duration": 271,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3",
+      "coverUrl": "https://picsum.photos/seed/song152/300/300",
+      "genre": "Folk"
+    },
+    {
+      "id": 153,
+      "title": "Desert Mirage",
+      "artistId": 3,
+      "albumId": 4,
+      "duration": 308,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3",
+      "coverUrl": "https://picsum.photos/seed/song153/300/300",
+      "genre": "Soul"
+    },
+    {
+      "id": 154,
+      "title": "Crossfire",
+      "artistId": 4,
+      "albumId": 5,
+      "duration": 345,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3",
+      "coverUrl": "https://picsum.photos/seed/song154/300/300",
+      "genre": "Funk"
+    },
+    {
+      "id": 155,
+      "title": "Tide Pools",
+      "artistId": 5,
+      "albumId": 6,
+      "duration": 201,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-11.mp3",
+      "coverUrl": "https://picsum.photos/seed/song155/300/300",
+      "genre": "Latin"
+    },
+    {
+      "id": 156,
+      "title": "Dark Matter",
+      "artistId": 6,
+      "albumId": 7,
+      "duration": 238,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-12.mp3",
+      "coverUrl": "https://picsum.photos/seed/song156/300/300",
+      "genre": "Indie"
+    },
+    {
+      "id": 157,
+      "title": "Opal Dreams",
+      "artistId": 7,
+      "albumId": 8,
+      "duration": 275,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-13.mp3",
+      "coverUrl": "https://picsum.photos/seed/song157/300/300",
+      "genre": "Alternative"
+    },
+    {
+      "id": 158,
+      "title": "Volcanic Sunset",
+      "artistId": 8,
+      "albumId": 9,
+      "duration": 312,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-14.mp3",
+      "coverUrl": "https://picsum.photos/seed/song158/300/300",
+      "genre": "Ambient"
+    },
+    {
+      "id": 159,
+      "title": "Bamboo Forest",
+      "artistId": 9,
+      "albumId": 11,
+      "duration": 349,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-15.mp3",
+      "coverUrl": "https://picsum.photos/seed/song159/300/300",
+      "genre": "Lo-fi"
+    },
+    {
+      "id": 160,
+      "title": "Neutron Star",
+      "artistId": 10,
+      "albumId": 12,
+      "duration": 205,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-16.mp3",
+      "coverUrl": "https://picsum.photos/seed/song160/300/300",
+      "genre": "Dance"
+    },
+    {
+      "id": 161,
+      "title": "Solitude",
+      "artistId": 1,
+      "albumId": 2,
+      "duration": 242,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+      "coverUrl": "https://picsum.photos/seed/song161/300/300",
+      "genre": "Pop"
+    },
+    {
+      "id": 162,
+      "title": "Byte Storm",
+      "artistId": 2,
+      "albumId": 3,
+      "duration": 279,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+      "coverUrl": "https://picsum.photos/seed/song162/300/300",
+      "genre": "Rock"
+    },
+    {
+      "id": 163,
+      "title": "Porcelain Mask",
+      "artistId": 3,
+      "albumId": 4,
+      "duration": 316,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+      "coverUrl": "https://picsum.photos/seed/song163/300/300",
+      "genre": "Jazz"
+    },
+    {
+      "id": 164,
+      "title": "Rolling Thunder",
+      "artistId": 4,
+      "albumId": 5,
+      "duration": 353,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
+      "coverUrl": "https://picsum.photos/seed/song164/300/300",
+      "genre": "Classical"
+    },
+    {
+      "id": 165,
+      "title": "Blue Lagoon",
+      "artistId": 5,
+      "albumId": 6,
+      "duration": 209,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
+      "coverUrl": "https://picsum.photos/seed/song165/300/300",
+      "genre": "Hip Hop"
+    },
+    {
+      "id": 166,
+      "title": "Wraith Song",
+      "artistId": 6,
+      "albumId": 7,
+      "duration": 246,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
+      "coverUrl": "https://picsum.photos/seed/song166/300/300",
+      "genre": "R&B"
+    },
+    {
+      "id": 167,
+      "title": "Snowblind",
+      "artistId": 7,
+      "albumId": 8,
+      "duration": 283,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3",
+      "coverUrl": "https://picsum.photos/seed/song167/300/300",
+      "genre": "Electronic"
+    },
+    {
+      "id": 168,
+      "title": "Campfire Tales",
+      "artistId": 8,
+      "albumId": 9,
+      "duration": 320,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3",
+      "coverUrl": "https://picsum.photos/seed/song168/300/300",
+      "genre": "Country"
+    },
+    {
+      "id": 169,
+      "title": "Jasmine Wind",
+      "artistId": 9,
+      "albumId": 11,
+      "duration": 357,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3",
+      "coverUrl": "https://picsum.photos/seed/song169/300/300",
+      "genre": "Blues"
+    },
+    {
+      "id": 170,
+      "title": "Quasar",
+      "artistId": 10,
+      "albumId": 12,
+      "duration": 213,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3",
+      "coverUrl": "https://picsum.photos/seed/song170/300/300",
+      "genre": "Reggae"
+    },
+    {
+      "id": 171,
+      "title": "Painted Desert",
+      "artistId": 1,
+      "albumId": 2,
+      "duration": 250,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-11.mp3",
+      "coverUrl": "https://picsum.photos/seed/song171/300/300",
+      "genre": "Metal"
+    },
+    {
+      "id": 172,
+      "title": "Frequency Drift",
+      "artistId": 2,
+      "albumId": 3,
+      "duration": 287,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-12.mp3",
+      "coverUrl": "https://picsum.photos/seed/song172/300/300",
+      "genre": "Folk"
+    },
+    {
+      "id": 173,
+      "title": "Silk Road",
+      "artistId": 3,
+      "albumId": 4,
+      "duration": 324,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-13.mp3",
+      "coverUrl": "https://picsum.photos/seed/song173/300/300",
+      "genre": "Soul"
+    },
+    {
+      "id": 174,
+      "title": "Earthquake",
+      "artistId": 4,
+      "albumId": 5,
+      "duration": 180,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-14.mp3",
+      "coverUrl": "https://picsum.photos/seed/song174/300/300",
+      "genre": "Funk"
+    },
+    {
+      "id": 175,
+      "title": "Floating Lanterns",
+      "artistId": 5,
+      "albumId": 6,
+      "duration": 217,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-15.mp3",
+      "coverUrl": "https://picsum.photos/seed/song175/300/300",
+      "genre": "Latin"
+    },
+    {
+      "id": 176,
+      "title": "Dark Horse",
+      "artistId": 6,
+      "albumId": 7,
+      "duration": 254,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-16.mp3",
+      "coverUrl": "https://picsum.photos/seed/song176/300/300",
+      "genre": "Indie"
+    },
+    {
+      "id": 177,
+      "title": "Crystal Rain",
+      "artistId": 7,
+      "albumId": 8,
+      "duration": 291,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+      "coverUrl": "https://picsum.photos/seed/song177/300/300",
+      "genre": "Alternative"
+    },
+    {
+      "id": 178,
+      "title": "Smoldering",
+      "artistId": 8,
+      "albumId": 9,
+      "duration": 328,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+      "coverUrl": "https://picsum.photos/seed/song178/300/300",
+      "genre": "Ambient"
+    },
+    {
+      "id": 179,
+      "title": "Night Orchid",
+      "artistId": 9,
+      "albumId": 11,
+      "duration": 184,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+      "coverUrl": "https://picsum.photos/seed/song179/300/300",
+      "genre": "Lo-fi"
+    },
+    {
+      "id": 180,
+      "title": "Binary Sunset",
+      "artistId": 10,
+      "albumId": 12,
+      "duration": 221,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
+      "coverUrl": "https://picsum.photos/seed/song180/300/300",
+      "genre": "Dance"
+    },
+    {
+      "id": 181,
+      "title": "River of Gold",
+      "artistId": 1,
+      "albumId": 2,
+      "duration": 234,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
+      "coverUrl": "https://picsum.photos/seed/song181/300/300",
+      "genre": "Pop"
+    },
+    {
+      "id": 182,
+      "title": "Voltage",
+      "artistId": 2,
+      "albumId": 3,
+      "duration": 271,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
+      "coverUrl": "https://picsum.photos/seed/song182/300/300",
+      "genre": "Rock"
+    },
+    {
+      "id": 183,
+      "title": "Dreamcatcher",
+      "artistId": 3,
+      "albumId": 4,
+      "duration": 308,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3",
+      "coverUrl": "https://picsum.photos/seed/song183/300/300",
+      "genre": "Jazz"
+    },
+    {
+      "id": 184,
+      "title": "Iron Tempest",
+      "artistId": 4,
+      "albumId": 5,
+      "duration": 345,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3",
+      "coverUrl": "https://picsum.photos/seed/song184/300/300",
+      "genre": "Classical"
+    },
+    {
+      "id": 185,
+      "title": "Aquamarine",
+      "artistId": 5,
+      "albumId": 6,
+      "duration": 201,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3",
+      "coverUrl": "https://picsum.photos/seed/song185/300/300",
+      "genre": "Hip Hop"
+    },
+    {
+      "id": 186,
+      "title": "Shadow Play",
+      "artistId": 6,
+      "albumId": 7,
+      "duration": 238,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3",
+      "coverUrl": "https://picsum.photos/seed/song186/300/300",
+      "genre": "R&B"
+    },
+    {
+      "id": 187,
+      "title": "Icicle Falls",
+      "artistId": 7,
+      "albumId": 8,
+      "duration": 275,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-11.mp3",
+      "coverUrl": "https://picsum.photos/seed/song187/300/300",
+      "genre": "Electronic"
+    },
+    {
+      "id": 188,
+      "title": "Afterglow",
+      "artistId": 8,
+      "albumId": 9,
+      "duration": 312,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-12.mp3",
+      "coverUrl": "https://picsum.photos/seed/song188/300/300",
+      "genre": "Country"
+    },
+    {
+      "id": 189,
+      "title": "Chrysanthemum",
+      "artistId": 9,
+      "albumId": 11,
+      "duration": 349,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-13.mp3",
+      "coverUrl": "https://picsum.photos/seed/song189/300/300",
+      "genre": "Blues"
+    },
+    {
+      "id": 190,
+      "title": "Shooting Star",
+      "artistId": 10,
+      "albumId": 12,
+      "duration": 205,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-14.mp3",
+      "coverUrl": "https://picsum.photos/seed/song190/300/300",
+      "genre": "Reggae"
+    },
+    {
+      "id": 191,
+      "title": "Sunflower Fields",
+      "artistId": 1,
+      "albumId": 2,
+      "duration": 242,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-15.mp3",
+      "coverUrl": "https://picsum.photos/seed/song191/300/300",
+      "genre": "Metal"
+    },
+    {
+      "id": 192,
+      "title": "Neon Cathedral",
+      "artistId": 2,
+      "albumId": 3,
+      "duration": 279,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-16.mp3",
+      "coverUrl": "https://picsum.photos/seed/song192/300/300",
+      "genre": "Folk"
+    },
+    {
+      "id": 193,
+      "title": "Foghorn",
+      "artistId": 3,
+      "albumId": 4,
+      "duration": 316,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+      "coverUrl": "https://picsum.photos/seed/song193/300/300",
+      "genre": "Soul"
+    },
+    {
+      "id": 194,
+      "title": "Avalanche",
+      "artistId": 4,
+      "albumId": 5,
+      "duration": 353,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+      "coverUrl": "https://picsum.photos/seed/song194/300/300",
+      "genre": "Funk"
+    },
+    {
+      "id": 195,
+      "title": "Deep Blue",
+      "artistId": 5,
+      "albumId": 6,
+      "duration": 201,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+      "coverUrl": "https://picsum.photos/seed/song195/300/300",
+      "genre": "Latin"
+    },
+    {
+      "id": 196,
+      "title": "Ghost Light",
+      "artistId": 6,
+      "albumId": 7,
+      "duration": 238,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
+      "coverUrl": "https://picsum.photos/seed/song196/300/300",
+      "genre": "Indie"
+    },
+    {
+      "id": 197,
+      "title": "Marble Halls",
+      "artistId": 7,
+      "albumId": 8,
+      "duration": 283,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
+      "coverUrl": "https://picsum.photos/seed/song197/300/300",
+      "genre": "Alternative"
+    },
+    {
+      "id": 198,
+      "title": "Matchstick",
+      "artistId": 8,
+      "albumId": 9,
+      "duration": 320,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
+      "coverUrl": "https://picsum.photos/seed/song198/300/300",
+      "genre": "Ambient"
+    },
+    {
+      "id": 199,
+      "title": "Sakura",
+      "artistId": 9,
+      "albumId": 11,
+      "duration": 357,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3",
+      "coverUrl": "https://picsum.photos/seed/song199/300/300",
+      "genre": "Lo-fi"
+    },
+    {
+      "id": 200,
+      "title": "Event Horizon",
+      "artistId": 10,
+      "albumId": 12,
+      "duration": 213,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3",
+      "coverUrl": "https://picsum.photos/seed/song200/300/300",
+      "genre": "Dance"
+    },
+    {
+      "id": 201,
+      "title": "Honeycomb",
+      "artistId": 1,
+      "albumId": 2,
+      "duration": 250,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3",
+      "coverUrl": "https://picsum.photos/seed/song201/300/300",
+      "genre": "Pop"
+    },
+    {
+      "id": 202,
+      "title": "Pixel Rain",
+      "artistId": 2,
+      "albumId": 3,
+      "duration": 287,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3",
+      "coverUrl": "https://picsum.photos/seed/song202/300/300",
+      "genre": "Rock"
+    },
+    {
+      "id": 203,
+      "title": "Sandcastle",
+      "artistId": 3,
+      "albumId": 4,
+      "duration": 324,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-11.mp3",
+      "coverUrl": "https://picsum.photos/seed/song203/300/300",
+      "genre": "Jazz"
+    },
+    {
+      "id": 204,
+      "title": "Thunderbolt",
+      "artistId": 4,
+      "albumId": 5,
+      "duration": 180,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-12.mp3",
+      "coverUrl": "https://picsum.photos/seed/song204/300/300",
+      "genre": "Classical"
+    },
+    {
+      "id": 205,
+      "title": "Mermaid Song",
+      "artistId": 5,
+      "albumId": 6,
+      "duration": 217,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-13.mp3",
+      "coverUrl": "https://picsum.photos/seed/song205/300/300",
+      "genre": "Hip Hop"
+    },
+    {
+      "id": 206,
+      "title": "Penumbra",
+      "artistId": 6,
+      "albumId": 7,
+      "duration": 254,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-14.mp3",
+      "coverUrl": "https://picsum.photos/seed/song206/300/300",
+      "genre": "R&B"
+    },
+    {
+      "id": 207,
+      "title": "Geode",
+      "artistId": 7,
+      "albumId": 8,
+      "duration": 291,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-15.mp3",
+      "coverUrl": "https://picsum.photos/seed/song207/300/300",
+      "genre": "Electronic"
+    },
+    {
+      "id": 208,
+      "title": "Flashpoint",
+      "artistId": 8,
+      "albumId": 9,
+      "duration": 328,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-16.mp3",
+      "coverUrl": "https://picsum.photos/seed/song208/300/300",
+      "genre": "Country"
+    },
+    {
+      "id": 209,
+      "title": "Magnolia",
+      "artistId": 9,
+      "albumId": 11,
+      "duration": 184,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+      "coverUrl": "https://picsum.photos/seed/song209/300/300",
+      "genre": "Blues"
+    },
+    {
+      "id": 210,
+      "title": "Supermoon",
+      "artistId": 10,
+      "albumId": 12,
+      "duration": 221,
+      "fileUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+      "coverUrl": "https://picsum.photos/seed/song210/300/300",
+      "genre": "Reggae"
+    }
+  ],
+  "artists": [
+    {
+      "id": 1,
+      "name": "Aurora Beats",
+      "bio": "Blending dreamy synths with pulsating rhythms, Aurora Beats crafts soundscapes that transport listeners to ethereal dimensions.",
+      "imageUrl": "https://picsum.photos/seed/artist1/300/300"
+    },
+    {
+      "id": 2,
+      "name": "Neon Pulse",
+      "bio": "A pioneer of futuristic electronic music, Neon Pulse delivers high-energy tracks infused with retro-wave aesthetics.",
+      "imageUrl": "https://picsum.photos/seed/artist2/300/300"
+    },
+    {
+      "id": 3,
+      "name": "Velvet Echo",
+      "bio": "Known for hauntingly beautiful melodies and rich vocal harmonies, Velvet Echo creates music that lingers in the soul.",
+      "imageUrl": "https://picsum.photos/seed/artist3/300/300"
+    },
+    {
+      "id": 4,
+      "name": "Crimson Tide",
+      "bio": "With powerful guitar riffs and thunderous drums, Crimson Tide brings raw intensity and passion to every performance.",
+      "imageUrl": "https://picsum.photos/seed/artist4/300/300"
+    },
+    {
+      "id": 5,
+      "name": "Luna Wave",
+      "bio": "Inspired by the ocean and moonlight, Luna Wave produces soothing yet captivating tracks that ebb and flow like the tides.",
+      "imageUrl": "https://picsum.photos/seed/artist5/300/300"
+    },
+    {
+      "id": 6,
+      "name": "Shadow Drift",
+      "bio": "Operating in the space between light and dark, Shadow Drift weaves atmospheric compositions filled with mystery and depth.",
+      "imageUrl": "https://picsum.photos/seed/artist6/300/300"
+    },
+    {
+      "id": 7,
+      "name": "Crystal Heights",
+      "bio": "Ascending to new sonic peaks, Crystal Heights combines crystalline production with soaring vocals for a transcendent experience.",
+      "imageUrl": "https://picsum.photos/seed/artist7/300/300"
+    },
+    {
+      "id": 8,
+      "name": "Ember Storm",
+      "bio": "Igniting stages worldwide, Ember Storm fuses explosive beats with fiery lyrics that leave audiences ablaze with energy.",
+      "imageUrl": "https://picsum.photos/seed/artist8/300/300"
+    },
+    {
+      "id": 9,
+      "name": "Midnight Bloom",
+      "bio": "Flourishing in the quiet hours, Midnight Bloom crafts intimate and introspective music that blossoms in the darkness.",
+      "imageUrl": "https://picsum.photos/seed/artist9/300/300"
+    },
+    {
+      "id": 10,
+      "name": "Solar Flare",
+      "bio": "Radiating boundless energy and creativity, Solar Flare produces electrifying music that shines with cosmic brilliance.",
+      "imageUrl": "https://picsum.photos/seed/artist10/300/300"
+    }
+  ],
+  "albums": [
+    {
+      "id": 1,
+      "title": "Electric Dawn",
+      "artistId": 1,
+      "year": 2023,
+      "coverUrl": "https://picsum.photos/seed/album1/300/300"
+    },
+    {
+      "id": 2,
+      "title": "Neon Horizons",
+      "artistId": 1,
+      "year": 2024,
+      "coverUrl": "https://picsum.photos/seed/album2/300/300"
+    },
+    {
+      "id": 3,
+      "title": "Pulse Theory",
+      "artistId": 2,
+      "year": 2022,
+      "coverUrl": "https://picsum.photos/seed/album3/300/300"
+    },
+    {
+      "id": 4,
+      "title": "Echoes in Velvet",
+      "artistId": 3,
+      "year": 2023,
+      "coverUrl": "https://picsum.photos/seed/album4/300/300"
+    },
+    {
+      "id": 5,
+      "title": "Tidal Force",
+      "artistId": 4,
+      "year": 2021,
+      "coverUrl": "https://picsum.photos/seed/album5/300/300"
+    },
+    {
+      "id": 6,
+      "title": "Lunar Phases",
+      "artistId": 5,
+      "year": 2024,
+      "coverUrl": "https://picsum.photos/seed/album6/300/300"
+    },
+    {
+      "id": 7,
+      "title": "Shadows & Light",
+      "artistId": 6,
+      "year": 2022,
+      "coverUrl": "https://picsum.photos/seed/album7/300/300"
+    },
+    {
+      "id": 8,
+      "title": "Crystal Clear",
+      "artistId": 7,
+      "year": 2023,
+      "coverUrl": "https://picsum.photos/seed/album8/300/300"
+    },
+    {
+      "id": 9,
+      "title": "Firestarter",
+      "artistId": 8,
+      "year": 2024,
+      "coverUrl": "https://picsum.photos/seed/album9/300/300"
+    },
+    {
+      "id": 10,
+      "title": "Midnight Garden",
+      "artistId": 9,
+      "year": 2021,
+      "coverUrl": "https://picsum.photos/seed/album10/300/300"
+    },
+    {
+      "id": 11,
+      "title": "Bloom Season",
+      "artistId": 9,
+      "year": 2023,
+      "coverUrl": "https://picsum.photos/seed/album11/300/300"
+    },
+    {
+      "id": 12,
+      "title": "Solar System",
+      "artistId": 10,
+      "year": 2022,
+      "coverUrl": "https://picsum.photos/seed/album12/300/300"
+    }
+  ],
+  "playlists": []
+}
