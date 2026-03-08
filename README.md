@@ -100,4 +100,4 @@ npm test
 ```
 
 ---
-Built with ❤️ using Angular.
+
